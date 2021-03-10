@@ -1,0 +1,78 @@
+#starterList {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  opacity: .75;
+}
+
+.startItem {
+  float: left;
+  padding: 5px;
+  display: block;
+  background: #FFE4B5;
+  text-align: center;
+}
+
+.startItem a:hover{
+	background-color: #F4A460;
+	transition: background: .5s;
+}
+
+ul {
+	list-style-type: none;
+	
+}
+li {
+	padding-top:5px;
+	padding: 15px;
+	display: inline-block;
+}
+
+img{
+	height: 200px;
+	width: 250px;
+	fit: scale-down;
+}
+
+figcaption {
+	width: 250px;
+}
+
+body {
+	text-align: left;
+	margin: 80px;
+	background-image: url(https://previews.123rf.com/images/wutichaistudio/wutichaistudio1706/wutichaistudio170600332/80374374-sand-texture-sand-background-fine-sand-beach-sand-the-sand-at-sea-on-summer-.jpg);
+	font-family: sans-serif;
+}
+
+article {
+	padding: 20px;
+	padding-bottom:0px;
+	padding-top: 5px;
+	display: block;
+	background-color: #FFE4B5;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+h4 {
+	padding: 10px;
+	padding-bottom: 0px;
+	display: block;
+	background-color: #FFE4B5;
+}
+
+p {
+	font-weight: 400;
+}
+
+
+

@@ -2,37 +2,329 @@
 
 <html>
    <head>
-      <title>CG Geo Example</title>
+      <title>CG Geo Exploration Methods</title>
+	  <link rel="stylesheet" href="./styles.css">
    </head>
 
    <body>
-   
-		<h1>Geological Exploration</h1>
+		
+		<h1>Geological Exploration Methods &#38; Examples</h1>
+		<ul id="starterList">
+			<li class = "startItem">
+				<a href="#Field Methods">Field Methods</a>
+			</li>
+			<li class = "startItem">
+				<a href="#Satellite Surveys">Satellite Surveys</a>
+			</li>
+			<li class = "startItem">
+				<a href="#Core Drilling">Core Drilling</a>
+			</li>
+			<li class = "startItem">
+				<a href="#Geophysical Surveys">Geophysical Surveys</a>
+			</li>
+			<li class = "startItem">
+				<a href="#Geochemical Sampling">Geochemical Sampling</a>
+			</li>
+			<li class = "startItem">
+				<a href="#Geological Modeling">Geological Modeling</a>
+			</li>
+			<li class = "startItem">
+				<a href="#Other Methods">Other Methods</a>
+			</li>
+		</ul>
 		
 		<main>
-			<h2>Basic Geological Exploration Methods</h2>
+			<h4>Geological exploration is a complex task that relies on a variety of different scientific disciplines and specialties. While many methods
+			exist to study the subsurface, below are a selection of different methods that are commonly used to study the subsurface.</h4>
+	
 			<article>
-				<h3>Field Mapping</h3>
+				<a id="Field Methods"></a>
+				<h3>Field Methods</h3>
+				<p>The oldest style of geological exploration, this involves physically traversing
+				the studied terrain, describing and categorizing the various soil and rock outcrops encountered
+				throughout the study area. Typically, this will also involve the creation of a representative 
+				map placing these units in relation to the topography and prominent features. Important features
+				such as the strike and dip of rock, fossils encountered in rock, or notable features of a particular
+				unit such as reactions to hydrochloric acid will be recorded.</p>
+				<h4>Common Field Methods</h4>
+				<ul class = "examples">
+					<li>
+						<img src="./Images/usgeo.jfif" alt="Geological Map of the US" width="225" height="300">
+						<figcaption><strong>Geological Mapping</strong>: Geological Map of the US</figcaption>
+					</li>
+					<li>
+						<img src="./Images/sketch.jpg" alt="Geological field sketch" width="250" height="150">
+						<figcaption><strong>Geological Drawings</strong>: Field sketch of a geological outcrop</figcaption>
+					</li>
+					<li>
+						<img src="./Images/notebook.jpg" alt="Geological notebook" width="250" height="150">
+						<figcaption><strong>Outcrop Descriptions</strong>: Fieldbook with outcrop notes</figcaption>
+					</li>
+					<li>
+						<img src="./Images/geosampling.jfif" alt="Geologist sampling lava" width="250" height="150">
+						<figcaption><strong>Geological Sampling</strong>: Geologist taking a sample</figcaption>
+					</li>
+					<li>
+						<img src="./Images/fieldmapping.jpg" alt="Outcrop photo with scale" width="250" height="175">
+						<figcaption><strong>Photography</strong>: Photograph of outcrop with geologist as scale</figcaption>
+					</li>
+					<li>
+						<img src="./Images/geophotograph.jpg" alt="Aerial photograph of mountain" width="250" height="150">
+						<figcaption><strong>Aerial Photography</strong>: Aerial photograph showing structural features</figcaption>
+					</li>
+					<li>
+						<img src="./Images/petrology.jfif" alt="Microscopic image of rock texture" width="250" height="200">
+						<figcaption><strong>Microscopy</strong>: Rock under microscope with polarized lighting</figcaption>
+					</li>
+				</ul>
+
 			</article>
 			
 			<article>
+				<a id="Satellite Surveys"></a>
 				<h3>Satellite Surveys</h3>
+				<p>A modern technique that often falls under the category of Geographic Information Systems (GIS) or Remote Sensing,
+				satellite surveys are increasingly relied upon by geoscientists and other professionals all around 
+				the world. Satellite methods encompass methods such as LIDAR, aerial imagery, infrared, terrain
+				modeling, and spectral analysis. Each satellite based method can unveil significant features of the
+				surface and subsurface that are pertinent to the areas geology.
+				</p>
+				<h4>Common Satellite Methods</h4>
+				<ul class = "examples">
+					<li>
+						<img src="./Images/LIDAR.jpg" alt="Post processed lidar image of a city" width="250" height="150">
+						<figcaption><strong>LIDAR</strong>: Post processed LIDAR image</figcaption>
+					</li>
+					<li>
+						<img src="./Images/Radar.png" alt="Radar image of terrain" width="250" height="150">
+						<figcaption><strong>RADAR</strong>: Detailed RADAR terrain image </figcaption>
+					</li>
+					<li>
+						<img src="./Images/spectralanalysis3.png" alt="Satellite hyperspectral image of a river" width="250" height="150">
+						<figcaption><strong>Spectral Analysis</strong>: A river with and without spectral decomposition</figcaption>
+					</li>
+					<li>
+						<img src="./Images/aerialfault.jpg" alt="Strike slip fault as seen by satellite" width="250" height="150">
+						<figcaption><strong>Aerial Imaging</strong>: Strike slip fault satellite image</figcaption>
+					</li>
+					<li>
+						<img src="./Images/thermalsat.jpg" alt="Volcanic body as seen on thermal image" width="250" height="150">
+						<figcaption><strong>Thermal Imaging</strong>: Volcanic body under thermal imaging</figcaption>
+					</li>
+					<li>
+						<img src="./Images/radio.jfif" alt="Radiometric survey images" width="350" height="150">
+						<figcaption><strong>Radiometrics</strong>: Two dimensional uranium map</figcaption>
+					</li>
+					<li>
+						<img src="./Images/stereoimage.png" alt="Two satellites taking one image" width="240" height="230">
+						<figcaption><strong>Stereo Imaging Surveys</strong>: Two satellites image one location</figcaption>
+					</li>
+				</ul>
 			</article>
 			
 			<article>
+				<a id="Core Drilling"></a>
 				<h3>Core Drilling</h3>
+				<p>Drilling allows for direct observation of the subsurface by bringing the drilled units to the surface,
+				whether as cuttings or as intact samples. These allow for detailed descriptions of soil and rock units
+				along the vertical axis, which would normally be invisible unless exposed by erosion. In addition to 
+				giving direct observations of the soil and rock, drilling allows for data on the subsurfaces' geotechnical
+				and hydrogeological conditions via sampling and direct measurements.</p>
+				<h4>Common Drilling Sampling Techniques</h4>
+				<ul class = "examples">
+					<li>
+						<img src="./Images/rotarydrill.jpg" alt="Drill rig blueprint" width="200" height="225">
+						<figcaption><strong>Rotary Drilling</strong>: A river with and without spectral decomposition</figcaption>
+					</li>
+					<li>
+						<img src="./Images/auger.jpg" alt="Mobile drill rig using auger" width="250" height="250">
+						<figcaption><strong>Augering</strong>: ATV mounted drill rig using augers</figcaption>
+					</li>
+					<li>
+						<img src="./Images/rockcore.jfif" alt="A sandstone rock core" width="125" height="300">
+						<figcaption><strong>Core Sampling</strong>: Retrieved rock cores</figcaption>
+					</li>
+					<li>
+						<img src="./Images/pushsample.jpg" alt="Sampler being pushed into soil" width="250" height="150">
+						<figcaption><strong>Push Sampling</strong>: Sampler being pushed into soil by hand</figcaption>
+					</li>
+					<li>
+						<img src="./Images/sonic.jpg" alt="Sonic sampling log" width="200" height="250">
+						<figcaption><strong>Sonic Drilling</strong>: Unprocessed sonic drilling log</figcaption>
+					</li>
+					<li>
+						<img src="./Images/handdig.jfif" alt="Hand digging a hole" width="200" height="250">
+						<figcaption><strong>Hand Digging</strong>: Digging a hole by hand</figcaption>
+					</li>
+					<li>
+						<img src="./Images/trenching.jpg" alt="Trench in soil" width="250" height="200">
+						<figcaption><strong>Trenching/Test Pits</strong>: Trench dug into soil</figcaption>
+					</li>
+				</ul>
 			</article>
 			
 			<article>
+				<a id="Geophysical Surveys"></a>
 				<h3>Geophysical Surveys</h3>
+				<p>Geophysical surveys encompass a wide array of methods that can allow for expansive interpretations of
+				the subsurface. Seismic, magnetic, and gravity surveys are examples of geophysical methods that allow for
+				three dimensional observations of the subsurface. Using known values and/or correlations with other methods such
+				as core drilling, geophysical surveys can allow for rapid exploration of dozens or hundreds of the subsurface.
+				It can also allow for the rapid and accurate estimation of subsurface resources such as water, petroleum, or ores.
+				Geophysical methods also have the advantage of being deployable across many platforms and conditions, including
+				ship based platforms, airborne or satellite based devices, downhole surveys, and ground surveys via 
+				man or vehicle portable devices.</p>
+				<h4>Common Geophysical Methods</h4>
+				<ul class = "examples">
+					<li>
+						<img src="./Images/seis3.jfif" alt="Seismic reflectivity image" width="350" height="150">
+						<figcaption><strong>Seismic Surveys</strong>: Image shows volcano and horizons</figcaption>
+					</li>
+					<li>
+						<img src="./Images/gpr.jpg" alt="GPR method and results" width="250" height="150">
+						<figcaption><strong>Ground Penetrating Radar</strong>: GPR method and reflection image</figcaption>
+					</li>
+					<li>
+						<img src="./Images/resis.jfif" alt="Resistivity map" width="400" height="125">
+						<figcaption><strong>Resistivity Surveys</strong>: Current map during resistivity testing</figcaption>
+					</li>
+					<li>
+						<img src="./Images/gravity.gif" alt="Gravimetric map" width="250" height="225">
+						<figcaption><strong>Gravimetric Surveys</strong>: Gravimetric map</figcaption>
+					</li>
+					<li>
+						<img src="./Images/magnetic.jfif" alt="Magnetic survey map" width="250" height="150">
+						<figcaption><strong>Magnetic Surveys</strong>: Magnetic survey map</figcaption>
+					</li>
+					<li>
+						<img src="./Images/seistomo.jfif" alt="Interior earth shear velocity image" width="350" height="150">
+						<figcaption><strong>Seismic Tomography</strong>: Image of the earth's interior</figcaption>
+					</li>
+					<li>
+						<img src="./Images/petro.png" alt="Petrophysical logs" width="200" height="150">
+						<figcaption><strong>Petrophysical Logging</strong>: A series of different petrophysical logs</figcaption>
+					</li>
+				</ul>
 			</article>
 			
 			<article>
+				<a id="Geochemical Sampling"></a>
 				<h3>Geochemical Sampling</h3>
+				<p>A less direct method, geochemical sampling can be an excellent tool to determine detailed conditions of a unit
+				including its geological history and compositional elements. Important examples of geochemical sampling 
+				environmental protection work such as tracing the movement of chemicals across in the soil or groundwater
+				or for mining to track mineral deposits across a site so as to maximize recovery.</p>
+				<h4>Common Geochemical Methods</h4>
+				<ul class = "examples">
+					<li>
+						<img src="./Images/xraycrys.jfif" alt="X-Ray crystallogaphy graph" width="250" height="150">
+						<figcaption><strong>X-Ray Crystallography</strong>: Plotted opal attributes</figcaption>
+					</li>
+					<li>
+						<img src="./Images/massspec.gif" alt="Mass spectrometer machine" width="275" height="180">
+						<figcaption><strong>Mass Spectrometry</strong>: Mass spectrometry process</figcaption>
+					</li>
+					<li>
+						<img src="./Images/electron.jpg" alt="Electron microbeam images" width="150" height="250">
+						<figcaption><strong>Electron Microbeaming</strong>: Various microbeam images of a sample</figcaption>
+					</li>
+					<li>
+						<img src="./Images/geochron.jpg" alt="Geochronological process" width="250" height="200">
+						<figcaption><strong>Geochronology</strong>: Geochonology concept methodology</figcaption>
+					</li>
+					<li>
+						<img src="./Images/geotherm.png" alt="Minerals on a geothermal plot" width="250" height="200">
+						<figcaption><strong>Geothermometry</strong>: Minerals on a geothermal plot</figcaption>
+					</li>
+					<li>
+						<img src="./Images/gas_sampling.jfif" alt="Geologist taking gas sample" width="250" height="150">
+						<figcaption><strong>Gas Sampling</strong>: Geologist taking gas sample</figcaption>
+					</li>
+					<li>
+						<img src="./Images/microimage.jfif" alt="Micro image of a rock" width="250" height="150">
+						<figcaption><strong>Micro Imaging</strong>: Sample micro image</figcaption>
+					</li>
+				</ul>
 			</article>
 			
 			<article>
+				<a id="Geological Modeling"></a>
 				<h3>Geological Modeling and Simulations</h3>
+				<p>Using a combination of all of the above methods, it is possible to create two dimensional and three 
+				dimensional models of a project site. As an example, field mapping and drilling combined will give an exact 
+				representation of the subsurface. Geophysical surveys can fill in the subsurface spaces that can not be directly
+				observed, allowing for the following of geological structures and lithological contacts. Satellite surveys can allow
+				for the direct placement of surveyed features on topographically accurate digital maps. Geochemical sampling can then 
+				allow for finding important features such as gold ores in the subsurface. Combined with geophysical methods, this can
+				allow for prediction and verification of the path a feature or resource might follow in the subsurface. Combined, all
+				of these methods can help create detailed models of the subsurface and its many attributes.</p>
+				
+				<p>More than simply creating a representation of the current subsurface, knowledge of the various properties of a given
+				sites subsurface units can allow for forward and backward modeling of an area. Using known geological principles and models,
+				it is possible to create detailed histories of an area going back millions of years. It is also possible to predict how an area
+				might develop over time. Using computer simulations, even more detailed models can be created. Computer simulations also
+				allow for the rapid testing of different models to determine the validity of a given model for an area.</p>
+				<h4>Common Modeling Techniques</h4>
+				<ul class = "examples">
+					<li>
+						<img src="./Images/3d3.jpg" alt="3D image of rocks" width="250" height="200">
+						<figcaption><strong>3D Modeling</strong>: 3D model composed from 2D models</figcaption>
+					</li>
+					<li>
+						<img src="./Images/crosssec3.jfif" alt="Geological cross section" width="500" height="170">
+						<figcaption><strong>2D Modeling</strong>: Cross section showing projected geology in 2D</figcaption>
+					</li>
+					<li>
+						<img src="./Images/fowardprop.png" alt="Propogation of a fold in time" width="250" height="250">
+						<figcaption><strong>Forward Modeling</strong>: Propogation of a folded rock in time</figcaption>
+					</li>
+					<li>
+						<img src="./Images/reconstruct.jpg" alt="Reconstruction of a mountain range" width="250" height="350">
+						<figcaption><strong>Reconstruction</strong>: Reconstruction of a section to original flat surface</figcaption>
+					</li>
+					<li>
+						<img src="./Images/fluid.jpg" alt="Fluid model in faulted rock" width="350" height="200">
+						<figcaption><strong>Fluid Modeling</strong>: Fluid movement along a faulted section</figcaption>
+					</li>
+					<li>
+						<img src="./Images/geostat.jpg" alt="Statistical model" width="300" height="200">
+						<figcaption><strong>Geostatistics</strong>: Statistical position model</figcaption>
+					</li>
+					<li>
+						<img src="./Images/geotech.jpg" alt="Geotechnical model of soils" width="250" height="200">
+						<figcaption><strong>Geotechnical Modeling</strong>: Model of soils for construction purposes</figcaption>
+					</li>
+				</ul>
+			</article>
+			
+			<article>
+				<a id="Other Methods"></a>
+				<h3>Other Geologically Relevant Techniques</h3>
+				<p>While the methods described above are some of the most commonly used techniques, they are by no means an exhaustive list of all possible 
+				techniques. Below a list of other frequently used techniques and methods that may apply in specific situations or in different fields.</p>
+				<h4>Other Techniques</h4>
+				<ul class = "examples">
+					<li>
+						<img src="./Images/paleo.jfif" alt="Fossil in soil" width="250" height="200">
+						<figcaption><strong>Paleontology</strong>: Fossil remains. Useful for dating an area.</figcaption>
+					</li>
+					<li>
+						<img src="./Images/rocktest.jpg" alt="Rock core compressive test" width="275" height="100">
+						<figcaption><strong>Rock Lab Analysis</strong>: Rock core undergoing compressive test</figcaption>
+					</li>
+					<li>
+						<img src="./Images/telluric.jpg" alt="Telluric cross section" width="250" height="220">
+						<figcaption><strong>Telluric Survey</strong>: Cross section showing telluric survey results</figcaption>
+					</li>
+					<li>
+						<img src="./Images/hydroprobe.png" alt="Hydroprobe machine in operation" width="250" height="175">
+						<figcaption><strong>Hydroprobing</strong>: Hydroprobe machine in operation</figcaption>
+					</li>
+					<li>
+						<img src="./Images/hydrovac.jfif" alt="Hydrovac machine in operation" width="270" height="200">
+						<figcaption><strong>Hydrovacing</strong>: Hydrovac machine in operation</figcaption>
+					</li>
+				</ul>
 			</article>
 			
 		</main>
